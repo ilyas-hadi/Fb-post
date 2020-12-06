@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f0f2f5;
+}
+/* main header start */
+
+.main-header {
+  
+  background: #ffffff;
+  height: 80px;
+  width: 600px;
+  margin: 20px auto;
+  border-radius: 20px;
+  border: 1px solid #d3d3d3;
+  padding: 40px;
+}
+.row{display: flex;}
+.profile-img{
+height: 40px;
+width: 50px;
+cursor: pointer;
+}
+.in-pro {
+  border: 0.5px solid #d6d3d3;
+  width: 100%;
+  border-radius: 50%;
+  margin: -25px 0 0 0px;
+  
+}
+
+.span {
+  width: 83%;
+  height: 33px;
+  border-radius: 39px;
+  background: #efefef;
+  font-size: 20px;
+  color: #a9a8a8;
+  padding: 9px 0 0 40px;
+  margin: -20px 0 0 14px;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype";
+}
+.seprator2 {
+  height: 1px;
+  background: #ebe8e8;
+}
+.min-row {
+  display: flex;
+  padding: 23px;
+  justify-content: space-evenly;
+}
+
+.label {
+  color: #a9a8a8;
+  font-size: 13px;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype";
+  font-weight: bold;
+}
+.icon-video{
+  color: #e62e47;
+}
+.icon-photo {
+  color: #5bbe63;
+}
+.icon-feelings{
+  color: #f1b926;
+}
+.icon-video,.icon-photo,.icon-feelings{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+
+/*----------main header end---------- */
+.main-container {
+  background: #ffffff;
+  height: 540px;
+  width: 600px;
+  margin: 10px auto;
+  position: relative;
+  border-radius: 18px;
+  border: 1px solid #d3d3d3;
+}
+
+.profile {
+  margin: 8px;
+  position: absolute;
+  left: 25px;
+}
+
+.pro {
+  border: 1px solid rgb(119, 119, 119);
+  border-radius: 50%;
+  outline: none;
+  height: 50px;
+  width: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  .main-container {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main-container {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .min-bainner {
+    width: 400px;
+  }
+}
+
+.name h3 {
+  margin: 10px;
+  position: absolute;
+  left: 85px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+.time p {
+  color: rgb(169, 172, 170);
+  margin: 28px;
+  position: absolute;
+  left: 75px;
+  top: 6px;
+}
+
+.bainner {
+  position: absolute;
+  bottom: 62px;
+}
+
+.min-bainner {
+  width: 100%;
+}
+
+.seprator {
+  height: 1px;
+  width: 85%;
+  background: rgb(192, 190, 190);
+  position: absolute;
+  bottom: 50px;
+  left: 40px;
+}
+
+.icon {
+  left: -130px;
+  position: absolute;
+  top: 484px;
+}
+
+.icon ul li,
+a {
+  list-style: none;
+  display: inline;
+  margin-left: 72px;
+  text-decoration: none;
+  color: #6d6d6d;
+
+}
+
+.animation {
+  color: rgb(6, 115, 240);
+}
